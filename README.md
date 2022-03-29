@@ -48,4 +48,4 @@ require 'spree_order_notes/factories'
 ```
 ---
 
-_Made with a lot of ❤️❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-team)**_
+_Made with a lot of ❤️❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-contrib)**_
