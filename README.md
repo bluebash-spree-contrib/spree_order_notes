@@ -4,7 +4,7 @@
 
 ## 🤔 **About the project**
 
-* Spree extesnion for adding notes in the order side tabs in backend
+* Spree extension for adding notes in the order side tabs in backend
 
 ## ⚡ **Installation**
 
