@@ -1,0 +1,8 @@
+<% if can? :manage, Spree::Order %>
+  <li data-hook='admin_order_tabs_notes'>
+    <%= link_to_with_icon 'file',
+      "Notes <span class='badge'>#{@order.notes&.count}</span>".html_safe,
+      spree.admin_order_orders_notes_path(@order),
+      class: "#{'active' if current == :notes} nav-link order-notes" %>
+  </li>
+<% end %>
