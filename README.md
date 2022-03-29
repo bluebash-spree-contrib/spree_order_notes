@@ -1,8 +1,13 @@
-# SpreeOrderNotes
+<!-- markdownlint-disable MD032 MD033-->
+<!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
+# 🔥 **bluebash-spree-contrib/spree-order-notes**
 
-Introduction goes here.
+## 🤔 **About the project**
 
-## Installation
+* Spree extesnion for adding notes in the order side tabs in backend
+
+## ⚡ **Installation**
+
 
 1. Add this extension to your Gemfile with this line:
 
@@ -41,20 +46,6 @@ Simply add this require statement to your spec_helper:
 ```ruby
 require 'spree_order_notes/factories'
 ```
+---
 
-## Releasing
-
-```shell
-bundle exec gem bump -p -t
-bundle exec gem release
-```
-
-For more options please see [gem-release REAMDE](https://github.com/svenfuchs/gem-release)
-
-## Contributing
-
-If you'd like to contribute, please take a look at the
-[instructions](CONTRIBUTING.md) for installing dependencies and crafting a good
-pull request.
-
-Copyright (c) 2022 [name of extension creator], released under the New BSD License
+_Made with a lot of ❤️❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-team)**_
