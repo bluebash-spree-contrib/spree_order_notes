@@ -40,6 +40,7 @@
                 <th><%= Spree.t('note')%></th>
                 <th><%= Spree.t('created_by')%></th>
                 <th><%= Spree.t('created_at')%></th>
+                <th class="actions"></th>
               </tr>
             </thead>
             <tbody>
@@ -48,6 +49,11 @@
                   <td style='max-width: 400px;'><%= note.note %></td>
                   <td><%= note.user&.email %></td>
                   <td><%= note.created_at %></td>
+                  <td class="actions">
+                     <span class="d-flex justify-content-end">
+                      <%= button_to 'delete',{ action: "destroy", id: note.id }, method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-danger'%>
+                    </span>
+                  </td>
                 </tr>
               <% end %>
             </tbody>
@@ -57,3 +63,4 @@
     <% end %>
   </div>
 </div>
+
