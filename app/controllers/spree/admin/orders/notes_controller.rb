@@ -24,7 +24,6 @@ module Spree
           end
           redirect_back(fallback_location: root_path)
         end
-
         private
         def notes_params
           params.require(:note).permit(:note, :user_id)

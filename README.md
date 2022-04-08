@@ -1,13 +1,12 @@
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
-# 🔥 **bluebash-spree-contrib/spree-order-notes**
+# **spree_order_notes**
 
-## 🤔 **About the project**
+## **About the project**
 
-* Spree extension for adding notes in the order side tabs in backend
+* A Spree extension that provides ability to admins to add notes to the spree orders.
 
-## ⚡ **Installation**
-
+## **Installation**
 
 1. Add this extension to your Gemfile with this line:
 
