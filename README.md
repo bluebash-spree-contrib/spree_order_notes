@@ -11,6 +11,10 @@
 * User can add notes in the order from admin panel.
 * User can delete notes in the order from the admin panel.
 
+## **Demo**
+<img width="1000px" src="https://user-images.githubusercontent.com/80692612/163131329-38420c65-8065-4ddf-8c8e-fed06fdde65c.png">
+<img width="1000px" src="https://user-images.githubusercontent.com/80692612/163131338-0357f0d4-2905-4f66-9358-81f7c137a4b5.png">
+
 ## **Installation**
 
 1. Add this extension to your Gemfile with this line:
@@ -59,4 +63,3 @@ require 'spree_order_notes/factories'
 ---
 
 Copyright (c) 2022 Spree Edge. released under the [New BSD License](https://github.com/bluebash-spree-contrib/spree_order_notes/blob/master/LICENSE)
-_Made with a lot of ❤️❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-contrib)**_
