@@ -8,6 +8,4 @@ module SpreeOrderNotes
   end
 end
 
-if ::Spree::Order.included_modules.exclude?(SpreeOrderNotes::Spree::OrderDecorator)
-  ::Spree::Order.prepend SpreeOrderNotes::Spree::OrderDecorator
-end
+::Spree::Order.prepend SpreeOrderNotes::Spree::OrderDecorator if ::Spree::Order.included_modules.exclude?(SpreeOrderNotes::Spree::OrderDecorator)

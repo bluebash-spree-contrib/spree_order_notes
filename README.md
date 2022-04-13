@@ -6,6 +6,10 @@
 
 * A Spree extension that provides ability to admins to add notes to the spree orders.
 
+## **Feature List**
+* User can add notes in the order from admin panel.
+* User can delete notes in the order from the admin panel.
+
 ## **Installation**
 
 1. Add this extension to your Gemfile with this line:
@@ -47,4 +51,11 @@ require 'spree_order_notes/factories'
 ```
 ---
 
+## Contributing
+
+[See corresponding guidelines](https://github.com/bluebash-spree-contrib/spree_order_notes/blob/master/CONTRIBUTING.md)
+
+---
+
+Copyright (c) 2022 Spree Edge. released under the [New BSD License](https://github.com/bluebash-spree-contrib/spree_order_notes/blob/master/LICENSE)
 _Made with a lot of ❤️❤️ by **[@bluebash-spree-team](https://github.com/bluebash-spree-contrib)**_
