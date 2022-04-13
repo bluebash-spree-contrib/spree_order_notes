@@ -51,7 +51,7 @@
                   <td><%= note.created_at %></td>
                   <td class="actions">
                      <span class="d-flex justify-content-end">
-                      <%= button_to 'delete',{ action: "destroy", id: note.id }, method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-danger'%>
+                      <%= button_to Spree.t(:delete),{ action: "destroy", id: note.id }, method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-danger'%>
                     </span>
                   </td>
                 </tr>
