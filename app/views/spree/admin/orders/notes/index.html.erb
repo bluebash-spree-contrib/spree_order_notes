@@ -1,7 +1,7 @@
 <%= render 'spree/admin/shared/order_tabs', current: :notes %>
 
 <% content_for :page_title do %>
-  / <%= Spree.t(:notes) %>
+  / <%= Spree.t('admin.notes') %>
 <% end %>
 
 <div class="card" id="add-line-item" data-hook style="margin-bottom: 20px;">
@@ -10,7 +10,7 @@
       <div class="row">
         <div class="col-md-12">
           <div>
-            <label><%= Spree.t(:notes) %></label>
+            <label><%= Spree.t('admin.notes') %></label>
           </div>
           <%= f.text_area :note, cols: "5", rows: "3", required: true, class: 'form-control' %>
         </div>
@@ -37,9 +37,9 @@
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th><%= Spree.t('note')%></th>
-                <th><%= Spree.t('created_by')%></th>
-                <th><%= Spree.t('created_at')%></th>
+                <th><%= Spree.t('admin.note')%></th>
+                <th><%= Spree.t('admin.created_by')%></th>
+                <th><%= Spree.t('admin.created_at')%></th>
                 <th class="actions"></th>
               </tr>
             </thead>
