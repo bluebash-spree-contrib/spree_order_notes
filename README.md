@@ -1,12 +1,13 @@
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
-# **spree_order_notes**
+# **Spree Order Notes**
 
 ## **About the project**
 
 * A Spree extension that provides ability to admins to add notes to the spree orders.
 
 ## **Feature List**
+
 * User can add notes in the order from admin panel.
 * User can delete notes in the order from the admin panel.
 
