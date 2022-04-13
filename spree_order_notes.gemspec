@@ -26,4 +26,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_extension'
 
   s.add_development_dependency 'spree_dev_tools'
+  s.add_development_dependency 'rspec-rails', ">= 3.9.0"
+  s.add_development_dependency 'shoulda-matchers'
+  s.add_development_dependency 'rspec'
 end

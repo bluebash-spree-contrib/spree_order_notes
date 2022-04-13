@@ -48,6 +48,9 @@ bundle update
 bundle exec rake
 ```
 
+5. Screenshots
+ <img width="1000px" src="https://user-images.githubusercontent.com/103247739/162427217-936d1197-2fc0-47c7-b945-8909cbcf7615.png">
+
 When testing your applications integration with this extension you may use it's factories.
 Simply add this require statement to your spec_helper:
 
